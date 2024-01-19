@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import connectDB from "./db/dbConnection.js";
 import { app } from './app.js';
 
-dotenv.config({path: "./env"})
+dotenv.config({path: "./.env"})
 
 // import express from "express";
 // const app = express();
